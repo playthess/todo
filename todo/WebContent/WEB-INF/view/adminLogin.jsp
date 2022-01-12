@@ -16,8 +16,8 @@
 	<div class="text-center">
 	<form method="post" action="${pageContext.request.contextPath}/adminLogin" name="AdminLogin">
 		<div class="mx-auto m-3" style="width:400px;">
-				<div><input type="text" id="adminId" name="adminId" placeholder="Admin I D" class="form-control"></div>
-				<div><input type="password" id="adminPw" name="adminPw" placeholder="Admin Password" class="form-control"></div>
+				<div><input type="text" id="adminId" name="adminId" placeholder="Admin I D" class="form-control" value="admin"></div>
+				<div><input type="password" id="adminPw" name="adminPw" placeholder="Admin Password" class="form-control" value="1234"></div>
 			</div>
 		<button type="button" class="btn btn-outline-primary" onclick="adminLogin()">로그인</button>
 	</form>

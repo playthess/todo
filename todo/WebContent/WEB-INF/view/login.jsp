@@ -43,8 +43,8 @@
 	<div class="text-center">
 	<form method="post" action="${pageContext.request.contextPath}/login">
 			<div class="mx-auto m-3" style="width:400px;">
-				<div><input type="text" name="memberId" placeholder="I D" class="form-control"></div>
-				<div><input type="password" name="memberPw" placeholder="Password" class="form-control"></div>
+				<div><input type="text" name="memberId" placeholder="I D" class="form-control" value="1234"></div>
+				<div><input type="password" name="memberPw" placeholder="Password" class="form-control" value="1234"></div>
 			</div>
 			<div>
 				<button type="submit" class="btn btn-outline-primary">로그인</button>
